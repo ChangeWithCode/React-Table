@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TableHeader from "./TableHeader";
-import TableBody from "./tableBody";
+import TableBody from "../Table/TableBody";
 const Table = () => {
   const tableHeader = [
     "name",
