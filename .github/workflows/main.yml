@@ -36,4 +36,4 @@ jobs:
           username: root
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: build/  # Change this if your build output directory is different
-          target: /var/www/html/react-app/  # Change this to your server's deployment directory
+          target: /var/www/html/react-app-test  # Change this to your server's deployment directory
