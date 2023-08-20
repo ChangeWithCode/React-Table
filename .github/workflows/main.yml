@@ -35,5 +35,5 @@ jobs:
           host: 149.28.215.39
           username: root
           key: ${{ secrets.SERVER_SSH_KEY }}
-          source: build/  # Change this if your build output directory is different
+          source: /Users/muhammadqasim/Desktop/React/react_table/dist  # Change this if your build output directory is different
           target: /var/www/html/react-app-test  # Change this to your server's deployment directory
